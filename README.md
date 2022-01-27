@@ -13,3 +13,6 @@ Makes the pdf file assuming local LaTeX installation
 
 ### cleanup.sh
 Removes secondary files associated with LaTeX compilation
+
+## zip file for Overleaf
+MyLaTeXDocument.zip has all the files needed for a new overleaf project
