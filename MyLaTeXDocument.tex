@@ -1,0 +1,24 @@
+% MyLaTeXDocument.tex
+\documentclass[12pt]{article}
+
+\input{Preamble}         % Put packages and new definitions etc in Preamble.tex
+
+\title{Getting started with Git (and \LaTeX)}
+\author{Graham W. Wilson}
+
+\begin{document}
+
+\date{}
+\maketitle
+
+\input{Abstract}         % Short summary of the document  (Abstract.tex)
+
+\input{Body}             % You could subdivide Body.tex further if you want. For 
+                         % example one file per section. 
+                         % This divide and conquer strategy may also be good 
+                         % for finding and fixing compilation errors
+
+\input{References}       % References.tex has the commands that define the 
+                         % way the references are defined and cited
+
+\end{document}
